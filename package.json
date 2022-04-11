@@ -25,11 +25,11 @@
     "input": "./src/index.ts"
   },
   "publishConfig": {
-    "directory": "dist",
+    "directory": ".",
     "access": "public"
   },
   "files": [
-    "dist/**/*.{js,ts}",
+    "./**/*.{js,ts}",
     "LICENSE",
     "README.md"
   ],
