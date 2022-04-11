@@ -1,6 +1,6 @@
 {
   "name": "gffc-cli",
-  "version": "0.0.25",
+  "version": "0.0.26",
   "description": "GraphQL Code Generator plugin to generate freezed classes from your GraphQL schema",
   "author": {
     "email": "parables95@gmail.com",
@@ -12,11 +12,11 @@
     "type": "git",
     "url": "https://github.com/Parables/graphql-codegen-flutter-freezed-classes.git"
   },
-  "main": "./main/index.js",
+  "main": "main/index.js",
   "typings": "./main/index.d.ts",
   "module": "./main/index.mjs",
   "bin": {
-    "ffc": "./main/index.js"
+    "ffc": "main/index.js"
   },
   "publishConfig": {
     "directory": ".",
