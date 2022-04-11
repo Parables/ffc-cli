@@ -230,7 +230,7 @@ CLI made with typed-cli https://int0h.github.io/typed-cli-docs/`);
             schema: schema,
             generates: {
               [output]: {
-                plugins: ["plugin.js"],
+                plugins: ["main/plugin.js"],
                 config: {
                   fileName: fileName,
                   ignoreTypes: ignoreTypes,
